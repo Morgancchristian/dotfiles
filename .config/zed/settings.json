@@ -1,0 +1,37 @@
+{
+  // Behavior
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "notification_panel": {
+    "dock": "right"
+  },
+
+  "autosave": "on_window_change",
+
+  "auto_install_extensions": {
+    "java": true
+  },
+
+  "hide_mouse": "on_typing_and_movement",
+
+  "vim_mode": false,
+
+  // UI
+  "ui_font_size": 16,
+
+  "buffer_font_size": 16,
+
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Kanso Zen (Blurred)"
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+    "selections_menu": false,
+    "agent_review": false
+  }
+}

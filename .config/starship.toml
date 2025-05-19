@@ -1,0 +1,19 @@
+format = """$directory$git_branch$character"""
+
+[directory]
+style = "#8BA4B0"
+truncation_length = 2
+truncation_symbol = "…/"
+read_only = ""
+read_only_style = "#8B0000"
+
+[git_branch]
+symbol = "󱔔 "
+style = "#C4B28A"
+format = "[$symbol$branch]($style) "
+
+[character]
+success_symbol = "[❯](#8A9B7B)"
+error_symbol = "[❯](#600805)"
+vicmd_symbol = "[❮](#600805)"
+disabled = false
