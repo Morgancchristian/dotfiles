@@ -1,13 +1,28 @@
 {
   // Behavior
+  "terminal": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
   "features": {
     "edit_prediction_provider": "zed"
   },
   "notification_panel": {
-    "dock": "right"
+    "dock": "left"
   },
 
-  "autosave": "on_window_change",
+  "autosave": "on_focus_change",
 
   "auto_install_extensions": {
     "java": true
@@ -18,9 +33,9 @@
   "vim_mode": false,
 
   // UI
-  "ui_font_size": 16,
+  "ui_font_size": 20,
 
-  "buffer_font_size": 16,
+  "buffer_font_size": 20,
 
   "theme": {
     "mode": "system",
