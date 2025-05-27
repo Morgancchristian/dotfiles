@@ -1,5 +1,20 @@
 {
   // Behavior
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  
+  "restore_on_startup": "none",
+  "hide_mouse": "on_typing_and_movement",
+  "vim_mode": false,
+
+  
+  // UI
   "terminal": {
     "dock": "right"
   },
@@ -15,38 +30,23 @@
   "project_panel": {
     "dock": "right"
   },
-  "features": {
-    "edit_prediction_provider": "zed"
-  },
   "notification_panel": {
     "dock": "left"
   },
-
-  "autosave": "on_focus_change",
-
-  "auto_install_extensions": {
-    "java": true
-  },
-
-  "hide_mouse": "on_typing_and_movement",
-
-  "vim_mode": false,
-
-  // UI
-  "ui_font_size": 20,
-
-  "buffer_font_size": 20,
-
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
     "dark": "Kanso Zen (Blurred)"
   },
-
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
     "selections_menu": false,
     "agent_review": false
-  }
+  },
+  
+  "ui_font_size": 20,
+  "buffer_font_size": 20,
+  "inactive_opacity": 0.5,
+  "bottom_dock_layout": "contained"
 }
